@@ -12,12 +12,7 @@ YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 
 
 def search_youtube_videos(location_query, max_results=3):
-    """
-    搜索与地点相关的 YouTube 视频
-    :param location_query: 地点关键词，如 "Beijing" 或 "Tokyo"
-    :param max_results: 最多返回几个视频（默认3个）
-    :return: 视频信息列表（标题、视频ID、缩略图链接）
-    """
+
     params = {
         "part": "snippet",
         "q": location_query,
