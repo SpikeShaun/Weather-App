@@ -12,11 +12,6 @@ API_KEY = os.getenv("OPENWEATHER_API_KEY", "1b71465d8448becc5aacb2e481140af6")
 BASE_URL = "https://api.openweathermap.org/data/2.5"
 
 def get_weather_data(location):
-    """
-    获取当前天气
-    :param location: 可以是城市名、坐标（lat,lon）等
-    :return: dict 包含 location、temperature、description、icon
-    """
     url = f"{BASE_URL}/weather"
     params = {
         'q': location,
@@ -55,11 +50,6 @@ def get_weather_data(location):
         return None
 
 def get_five_day_forecast(location):
-    """
-    获取未来五天天气预报（每 3 小时一次，取每天中午的数据）
-    :param location: 城市名或坐标
-    :return: list of dicts，包含 date、temp、description、icon
-    """
     url = f"{BASE_URL}/forecast"
     params = {
         'q': location,
