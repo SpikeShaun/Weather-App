@@ -2,6 +2,8 @@
 
 This project is a backend implementation for a weather application, primarily managed through the `app.py` file. It handles all request routing, API calls, database operations, and data export functionalities. The project is built using the Flask framework and utilizes SQLAlchemy for ORM-based data management.
 
+- For ngrok integration, use `run_with_ngrok` to start the application.
+
 ## Dependencies
 
 ```python
