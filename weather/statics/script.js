@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
      // 获取按钮并添加点击事件监听器
     document.getElementById('getWeatherButton').addEventListener('click', (event) => {
-        event.preventDefault(); // 阻止按钮的默认行为（如果有）
+        event.preventDefault(); // 阻止按钮的默认行为
         getLocation(); // 调用获取位置和天气的函数
     });
 });
