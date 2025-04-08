@@ -158,7 +158,7 @@ if __name__ == '__main__':
 # #     weather_data = None
 # #     forecast = None
 # #     error = request.args.get('error')
-# #     youtube_videos = []  # ✅ 初始化视频变量
+# #     youtube_videos = [] 
 # #
 # #     location = request.args.get('location')  # 支持 /gps 跳转传参
 # #     if request.method == 'POST':
@@ -167,7 +167,7 @@ if __name__ == '__main__':
 # #     if location:
 # #         weather_data = get_weather_data(location)
 # #         forecast = get_five_day_forecast(location)
-# #         youtube_videos = search_youtube_videos(location)  # ✅ 获取对应视频列表
+# #         youtube_videos = search_youtube_videos(location)  
 # #
 # #         if weather_data and request.method == 'POST':
 # #             record = WeatherRecord(location=location, temperature=weather_data['temperature'])
@@ -182,8 +182,7 @@ if __name__ == '__main__':
 # #                            forecast=forecast,
 # #                            records=records,
 # #                            error=error,
-# #                            youtube_videos=youtube_videos)  # ✅ 传入视频内容
-#
+# #                            youtube_videos=youtube_videos)  
 #
 # @app.route('/', methods=['GET', 'POST'])
 # def index():
@@ -191,7 +190,7 @@ if __name__ == '__main__':
 #     forecast = None
 #     error = request.args.get('error')
 #
-#     location = request.args.get('location')  # 👉 接收从 /gps 跳转来的 location
+#     location = request.args.get('location')
 #     if request.method == 'POST':
 #         location = request.form.get('location')
 #
@@ -225,7 +224,7 @@ if __name__ == '__main__':
 #             record = WeatherRecord(location=weather_data['location'], temperature=weather_data['temperature'])
 #             db.session.add(record)
 #             db.session.commit()
-#             # 👇 用重定向，把城市名带回首页
+#            
 #             return redirect(url_for('index', location=weather_data['location']))
 #         else:
 #             return redirect(url_for('index', error="定位失败，天气服务无响应"))
