@@ -1,0 +1,174 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    padding-top: 20px;
+}
+
+h1, h4 {
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+/* Weather Card */
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 30px;
+    text-align: center;
+}
+
+.card-body img.weather-icon {
+    width: 80px;
+}
+
+.card-body h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.card-body p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Forecast Section */
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.forecast-item {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 18%;
+    text-align: center;
+    flex: 1 1 18%;
+}
+
+.forecast-item img.weather-icon {
+    width: 50px;
+}
+
+.forecast-item p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.forecast-item strong {
+    font-size: 18px;
+    color: #007BFF;
+}
+
+/* Form and Input Styling */
+.input-group {
+    max-width: 500px;
+    margin: 0 auto 20px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+}
+
+button {
+    font-size: 16px;
+}
+
+.btn-secondary {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #218838;
+}
+
+/* History Table */
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table a {
+    text-decoration: none;
+}
+
+.table .btn-sm {
+    padding: 5px 10px;
+}
+
+/* Data Export Buttons */
+button.btn-outline-primary,
+button.btn-outline-secondary,
+button.btn-outline-info,
+button.btn-outline-success {
+    margin-right: 10px;
+}
+
+button.btn-outline-primary:hover,
+button.btn-outline-secondary:hover,
+button.btn-outline-info:hover,
+button.btn-outline-success:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Alert Messages */
+.alert {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .forecast-item {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .forecast-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .forecast-item {
+        width: 100%;
+    }
+
+    .card-body h3 {
+        font-size: 28px;
+    }
+
+    .card-body p {
+        font-size: 14px;
+    }
+}
+
+/*00000000000000000000000*/
+

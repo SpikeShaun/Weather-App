@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "location": "dublin",
+        "temperature": 8.73
+    },
+    {
+        "id": 2,
+        "location": "haikou",
+        "temperature": 22.07
+    },
+    {
+        "id": 3,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 4,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 5,
+        "location": "Kunming",
+        "temperature": 25.02
+    },
+    {
+        "id": 6,
+        "location": "Kunming",
+        "temperature": 25.02
+    },
+    {
+        "id": 7,
+        "location": "dublin",
+        "temperature": 8.2
+    },
+    {
+        "id": 8,
+        "location": "Kunming",
+        "temperature": 25.02
+    },
+    {
+        "id": 9,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 10,
+        "location": "tianjin",
+        "temperature": 16.97
+    },
+    {
+        "id": 11,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 12,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 13,
+        "location": "london",
+        "temperature": 13.49
+    },
+    {
+        "id": 14,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 15,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 16,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 17,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 18,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 19,
+        "location": "lijiang",
+        "temperature": 17.84
+    },
+    {
+        "id": 20,
+        "location": "Kunming",
+        "temperature": 21.98
+    },
+    {
+        "id": 21,
+        "location": "haikou",
+        "temperature": 21.07
+    },
+    {
+        "id": 22,
+        "location": "Kunming",
+        "temperature": 20.98
+    },
+    {
+        "id": 23,
+        "location": "Kunming",
+        "temperature": 20.98
+    },
+    {
+        "id": 24,
+        "location": "Kunming",
+        "temperature": 20.98
+    },
+    {
+        "id": 25,
+        "location": "galway",
+        "temperature": 13.03
+    }
+]
