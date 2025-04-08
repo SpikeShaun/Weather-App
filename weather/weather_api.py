@@ -25,7 +25,7 @@ def get_weather_data(location):
         'lang': 'zh_cn'
     }
 
-    # 如果是坐标形式 location="lat,lon"
+    # 如果是坐标形式 location="lattitude,lontitude"
     if ',' in location and location.replace('.', '').replace(',', '').replace('-', '').isdigit():
         lat, lon = location.split(',')
         params = {
