@@ -6,8 +6,6 @@
 
 from flask import Flask
 from pyngrok import ngrok
-
-# 你的 Flask 应用文件名
 from app import app
 
 
@@ -17,7 +15,7 @@ def main():
     print(" * The ngrok tunnel is enabled, and the public IP address：", public_url)
 
     # Flask 用本地方式运行，ngrok 会自动转发
-    app.run(debug=True, use_reloader=False)  # 不要传 port 参数
+    app.run(debug=True, use_reloader=False)  # 不传 port 参数
 
 
 if __name__ == '__main__':
